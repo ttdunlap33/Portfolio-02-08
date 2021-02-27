@@ -1,0 +1,120 @@
+:root {
+  --white: #fff;
+  --dark-blue: #13293d;
+  --tan: #d8a47f;
+  --grey:#aaabb8; 
+  --black: black;
+  --border-radius: 50px;
+}
+
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+  background-color: #9dbcd4;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+  color: lightgray;
+}
+
+h2 {
+  padding: 40px;
+  text-align: center;
+  background: var(--dark-blue);
+  color: lightgray;
+  font-size: larger;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: var(--dark-blue);
+  color: lightgray;
+  font-size: larger;
+}
+
+a:active .GitHub {
+  padding: 40px;
+  text-align: center;
+  background: var(--dark-blue);
+  color: lightgray;
+  font-size: larger;
+}
+
+nav {
+  display: flex;
+  background-color: var(--grey);
+}
+
+nav a {
+  color: var(--black);
+  padding: 20px 26px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: var(--dark-blue);
+  color: lightgray;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 60px;
+  text-align: center;
+  background: var(--grey);
+  color: var(--black);
+  margin-top: auto;
+}
+
+.products {
+  flex: 1;
+  background-color: #9dbcd4;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  flex: 0 0 300px;
+  transform: rotate(8deg);
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+}
+
+.card > h2 {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  padding: 20px;
+}
+
+.card > p {
+  text-align: center;
+}
+
+.card > img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
