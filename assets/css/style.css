@@ -39,13 +39,24 @@ header {
   font-size: larger;
 }
 
-a:active .GitHub {
+a:visited.GitHub {
   padding: 40px;
   text-align: center;
   background: var(--dark-blue);
-  color: lightgray;
   font-size: larger;
+  text-decoration: none;
+  color: lightgray;
 }
+
+a:visited.LinkedIn {
+  padding: 40px;
+  text-align: center;
+  background: var(--dark-blue);
+  font-size: larger;
+  text-decoration: none;
+  color: lightgray;
+}
+
 
 nav {
   display: flex;
