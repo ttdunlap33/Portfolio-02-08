@@ -61,6 +61,7 @@ a:visited.LinkedIn {
 nav {
   display: flex;
   background-color: var(--grey);
+  font-size: larger;
 }
 
 
@@ -150,4 +151,8 @@ border-style: solid;
   nav {
     flex-direction: column;
   }
+}
+
+h3 {
+  font-size: larger;
 }
