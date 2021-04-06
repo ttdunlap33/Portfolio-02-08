@@ -28,6 +28,11 @@ Includes contact information
 * E-mail
 * Phone Number
 
+## Technologies used
+* HTML5
+* CSS
+* JavaScript
+
 
 [Thomas Dunlap's Portfolio](https://ttdunlap33.github.io/Portfolio-02-08/)
 
