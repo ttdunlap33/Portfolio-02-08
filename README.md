@@ -29,6 +29,6 @@ Includes contact information
 * Phone Number
 
 
-[Thomas Dunlap's Portfolio](https://ttdunlap33.github.io/CSS-portfolio/)
+[Thomas Dunlap's Portfolio](https://ttdunlap33.github.io/Portfolio-02-08/)
 
  [![screencapture-ttdunlap33-github-io-Portfolio-02-08-2021-04-06-08-56-57.png](https://i.postimg.cc/MTv7hByF/screencapture-ttdunlap33-github-io-Portfolio-02-08-2021-04-06-08-56-57.png)](https://postimg.cc/gXbLhntV)
