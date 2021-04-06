@@ -3,7 +3,7 @@ Thomas Dunlap: a portfolio
 
 ## Header
 Header H1 is used to display the project heading
-
+ 
 ## Navbar
 Navigational links to designated site locations.
 ## Main
