@@ -74,7 +74,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--smoke);
   color: lightgray;
 }
 
