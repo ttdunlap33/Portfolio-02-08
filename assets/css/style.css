@@ -1,9 +1,10 @@
 :root {
   --white: #fff;
-  --orange: #343434;
+  --smoke: #343434;
   --tan: #d8a47f;
   --grey:#aaabb8; 
   --black: black;
+  --dark-blue: #13293d;
   --border-radius: 50px;
 }
 
@@ -26,7 +27,7 @@ h1 {
 h2 {
   padding: 40px;
   text-align: center;
-  background: var(--orange);
+  background: var(--smoke);
   color: lightgray;
   font-size: larger;
 }
@@ -34,7 +35,7 @@ h2 {
 header {
   padding: 40px;
   text-align: center;
-  background: var(--orange);
+  
   color: lightgray;
   font-size: larger;
 }
@@ -42,7 +43,7 @@ header {
 a:visited.GitHub {
   padding: 40px;
   text-align: center;
-  background: var(--orange);
+  background: var(--dark-blue);
   font-size: larger;
   text-decoration: none;
   color: lightgray;
@@ -51,7 +52,7 @@ a:visited.GitHub {
 a:visited.LinkedIn {
   padding: 40px;
   text-align: center;
-  background: var(--orange);
+  background: var(--dark-blue);
   font-size: larger;
   text-decoration: none;
   color: lightgray;
@@ -73,7 +74,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: var(--orange);
+  background-color: var(--dark-blue);
   color: lightgray;
 }
 
