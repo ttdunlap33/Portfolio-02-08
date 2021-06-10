@@ -107,9 +107,10 @@ footer {
   border-width: 1px;
   border-radius: var(--border-radius);
   padding: 10px;
-  flex: 0 0 300px;
-  transform: rotate(8deg);
+  /* flex: 0 0 300px; */
+  /* transform: rotate(8deg); */
   box-shadow: 10px 10px 5px #aaaaaa;
+  /* In between */
   margin: 20px;
 }
 
@@ -123,8 +124,9 @@ border-style: solid;
   border-radius: var(--border-radius);
   padding: 10px;
   flex: 0 0 300px;
-  transform: rotate(8deg);
+  /* transform: rotate(8deg); */
   margin: 20px;
+  font-size: 5vw;
 }
 
 .card > h2 > .LinkedIn {
@@ -144,7 +146,14 @@ border-style: solid;
 }
 
 .card > img {
-  width: 100%;
+  width: 30%;
+  height: 50%;
+  text-align: center;
+}
+
+.cardImage {
+  width: 30%;
+  height: 50%;
 }
 
 @media screen and (max-width: 768px) {
@@ -178,7 +187,7 @@ h3 {
 .masthead-heading {
     margin-top: -0.2em;
     font-weight: bold;
-    font-size: 6em;
+    font-size: 5vw;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #ffffff;
