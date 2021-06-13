@@ -9,13 +9,13 @@
 
 
 ## Parameters
-* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
+* Updated portfolio featuring at least 3 examples of student work from either deployed projects of homeworks
 
-* Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+* Update GitHub profile with pinned repositories featuring at least 3 examples of student work from either deployed projects of homeworks
 
-* Submit an updated resume
+* Updated resume
 
-* Submit an updated LinkedIn profile
+* Updated LinkedIn profile
  
 ## Navbar
 Navigational links to designated site locations.
@@ -36,4 +36,4 @@ Includes contact information
 
 [Thomas Dunlap's Portfolio](https://ttdunlap33.github.io/Portfolio-02-08/)
 
- [![screencapture-ttdunlap33-github-io-Portfolio-02-08-2021-04-06-08-56-57.png](https://i.postimg.cc/MTv7hByF/screencapture-ttdunlap33-github-io-Portfolio-02-08-2021-04-06-08-56-57.png)](https://postimg.cc/gXbLhntV)
+ [![screencapture-ttdunlap33-github-io-Portfolio-02-08-2021-06-13-10-45-55.png](https://i.postimg.cc/Kv35cxrp/screencapture-ttdunlap33-github-io-Portfolio-02-08-2021-06-13-10-45-55.png)](https://postimg.cc/2VmW2ptn)
