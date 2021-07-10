@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react'
-import TypeWriter from 'react-typewriter';
 import MovingText from 'react-moving-text';
 
 // <h1 id="title" class='masthead-heading'><TypeWriter typing={1} maxDelay={300}>Thomas Dunlap's Portfolio</TypeWriter></h1>
