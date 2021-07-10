@@ -1,0 +1,219 @@
+:root {
+  --white: #fff;
+  --smoke: #343434;
+  --tan: #d8a47f;
+  --grey:#aaabb8; 
+  --black: black;
+  --dark-blue: #13293d;
+  --border-radius: 50px;
+}
+
+body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+  background-color: darkgray;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+  color: lightgray;
+}
+
+h2 {
+  padding: 40px;
+  text-align: center;
+  background: var(--smoke);
+  color: lightgray;
+  font-size: larger;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  
+  color: lightgray;
+  font-size: larger;
+}
+
+a:visited.GitHub {
+  padding: 40px;
+  text-align: center;
+  background: var(--dark-blue);
+  font-size: larger;
+  text-decoration: none;
+  color: lightgray;
+}
+
+a:visited.LinkedIn {
+  padding: 40px;
+  text-align: center;
+  background: var(--dark-blue);
+  font-size: larger;
+  text-decoration: none;
+  color: lightgray;
+}
+
+
+nav {
+  display: flex;
+  background-color: var(--grey);
+  font-size: larger;
+}
+
+
+nav a {
+  color: var(--black);
+  padding: 20px 26px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: var(--smoke);
+  color: lightgray;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 60px;
+  text-align: center;
+  background: var(--grey);
+  color: var(--black);
+  margin-top: auto;
+}
+
+.products {
+  flex: 1;
+  background-color: #a17a68;
+  /* padding: 50px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  /* flex: 0 0 300px; */
+  /* transform: rotate(8deg); */
+  box-shadow: 10px 10px 5px #aaaaaa;
+  /* In between */
+  margin: 20px;
+}
+
+.card > h2 {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  padding: 20px;
+}
+.card > h2 > .GitHub {
+border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  flex: 0 0 300px;
+  /* transform: rotate(8deg); */
+  margin: 20px;
+}
+
+.card > h2 > .LinkedIn {
+  border-style: solid;
+    border-width: 1px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    flex: 0 0 300px;
+    transform: rotate(8deg);
+    margin: 20px;
+  }
+
+
+
+.card > p {
+  text-align: center;
+}
+
+.card > img {
+  width: 30%;
+  height: 50%;
+  text-align: center;
+}
+
+.cardImage {
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
+
+h3 {
+  font-size: larger;
+}
+
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  background-image: url('../img/inside-of-a-watch.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-weight: bold;
+    font-size: 5vw;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    /* color: #ffffff; */
+    color: gray;
+}
+
+.back-article{
+  padding: 50px 100px 0px 100px;
+}
+
+.list{
+  margin: 0px 100px 10px 130px;
+  list-style-type: square;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+  color: lightgray;
+}
+
+.information {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+  color: lightgray;
+}
