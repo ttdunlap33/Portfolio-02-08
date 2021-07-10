@@ -1,50 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import React from 'react';
+import React from 'react'
+import TypeWriter from 'react-typewriter';
+import MovingText from 'react-moving-text';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// class App extends React.Component {
-//   render () {
-//     return (
-//       <div className="App">
-//         <header className="App-header">
-//           <img src={logo} className="App-logo" alt="logo" />
-//           <p>
-//             Edit <code>src/App.js</code> and save to reload.
-//           </p>
-//           <a
-//             className="App-link"
-//             href="https://reactjs.org"
-//             target="_blank"
-//             rel="noopener noreferrer"
-//           >
-//             Learn React
-//           </a>
-//         </header>
-//       </div>
-//     );
-//   }
-// }
+// <h1 id="title" class='masthead-heading'><TypeWriter typing={1} maxDelay={300}>Thomas Dunlap's Portfolio</TypeWriter></h1>
 
 class App extends React.Component {
   render () {
@@ -52,7 +12,17 @@ class App extends React.Component {
       <div className="App">
         <header class='masthead'>
           <div>
-            <h1 id="title" class='masthead-heading'>Thomas Dunlap's Portfolio</h1>
+            <h1 id="title" class='masthead-heading'><MovingText
+            //bounce, flipFromLeftToCenter, pulse
+      type="shadow"
+      duration="3000ms"
+      delay="0s"
+      direction="normal"
+      timing="ease"
+      iteration="infinite"
+      fillMode="none">
+      Thomas Dunlap's Portfolio
+    </MovingText></h1>
           </div>
         </header>
       
