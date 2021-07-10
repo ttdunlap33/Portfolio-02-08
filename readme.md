@@ -29,6 +29,7 @@ Includes contact information
 * Phone Number
 
 ## Technologies used
+* React
 * HTML5
 * CSS
 * JavaScript
